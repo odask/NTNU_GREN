@@ -3,6 +3,7 @@ import './Search.css'
 import Grid from "@material-ui/core/Grid";
 import TextField from '@mui/material/TextField'
 import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 class Search extends Component{
     render(){
@@ -22,7 +23,11 @@ class Search extends Component{
                 <TextField id="to" label="To" variant="outlined" />
             </Grid>
             &nbsp;
-            <Button variant="outlined">Search</Button>
+            <Button 
+                variant="outlined" 
+                component={Link}
+                to="/result"
+            >Search</Button>
             </Grid>
             </>
         )
