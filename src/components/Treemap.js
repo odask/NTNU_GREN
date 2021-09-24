@@ -40,7 +40,8 @@ export default function Treemap({ data, width, height }) {
       .append('rect')
       .attr('width', (d) => d.x1 - d.x0)
       .attr('height', (d) => d.y1 - d.y0)
-      .attr('fill', (d) => (d.data.color));
+      .attr('fill', (d) => (d.data.color))
+
 
     const fontSizeTitle = 25;
 

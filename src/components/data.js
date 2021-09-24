@@ -34,7 +34,7 @@ const data = {
             children: [
             {
                 category: 'co2_low',
-                name: 'M/S Beta',
+                name: 'M/S Cargo',
                 value: 5124.212,
                 color: '#D3EABD'
             }

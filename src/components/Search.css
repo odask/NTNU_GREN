@@ -1,0 +1,12 @@
+.myDiv {
+    z-index: 5;
+    color: #000;
+    font-size: 400%;
+    margin-top: 100px;
+  }
+.text_front {
+    z-index: 5;
+    color: #000;
+    font-size: 110%;
+    padding: 20px;
+}
