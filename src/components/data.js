@@ -44,14 +44,31 @@ const data = {
             name: 'co2_mid',
             children: [
             {
-                category: 'co2_low',
+                category: 'co2_mid',
                 name: 'M/S Titan',
+                value: 5383.9389,
+                color: '#F6BA98'
+            },
+            {
+                category: 'co2_mid',
+                name: 'M/S Sot',
+                value: 5960.2622,
+                color: '#F6BA98'
+            }
+            ]
+        },
+        {
+            name: 'co2_regular',
+            children: [
+            {
+                category: 'co2_regular',
+                name: 'M/S Silver',
                 value: 5383.9389,
                 color: '#E8986B'
             },
             {
-                category: 'co2_low',
-                name: 'M/S Sot',
+                category: 'co2_regular',
+                name: 'M/S Cobber',
                 value: 5960.2622,
                 color: '#E8986B'
             }

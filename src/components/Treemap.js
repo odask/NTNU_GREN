@@ -42,14 +42,14 @@ export default function Treemap({ data, width, height }) {
       .attr('height', (d) => d.y1 - d.y0)
       .attr('fill', (d) => (d.data.color));
 
-    const fontSizeTitle = 18;
+    const fontSizeTitle = 25;
 
     // add text to rects
     nodes
       .append('text')
       .text((d) => `${d.data.name} ${d.data.value}`)
       .attr('data-width', (d) => d.x1 - d.x0)
-      .attr('font-size', `${20}px`)
+      .attr('font-size', `${25}px`)
       .attr('x', 15)
       .attr('y', 35)
       .call(wrapText)
